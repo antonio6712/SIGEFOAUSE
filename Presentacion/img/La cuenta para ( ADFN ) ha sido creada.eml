@@ -1,0 +1,140 @@
+Received: from MN2PR02MB6095.namprd02.prod.outlook.com (2603:10b6:208:185::28)
+ by BN0PR02MB8111.namprd02.prod.outlook.com with HTTPS; Mon, 21 Feb 2022
+ 22:05:34 +0000
+Received: from MW4PR03CA0298.namprd03.prod.outlook.com (2603:10b6:303:b5::33)
+ by MN2PR02MB6095.namprd02.prod.outlook.com (2603:10b6:208:185::28) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.4995.16; Mon, 21 Feb
+ 2022 22:05:27 +0000
+Received: from MW2NAM04FT063.eop-NAM04.prod.protection.outlook.com
+ (2603:10b6:303:b5:cafe::62) by MW4PR03CA0298.outlook.office365.com
+ (2603:10b6:303:b5::33) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.4995.14 via Frontend
+ Transport; Mon, 21 Feb 2022 22:05:26 +0000
+Received: from hybrid.softtek.com (200.33.249.205) by
+ MW2NAM04FT063.mail.protection.outlook.com (10.13.31.109) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256) id
+ 15.20.4995.16 via Frontend Transport; Mon, 21 Feb 2022 22:05:26 +0000
+Received: from softtek.com (10.0.20.11) by stkss4.softtek.com (172.16.210.6)
+ with Microsoft SMTP Server id 15.1.2375.7; Mon, 21 Feb 2022 16:05:06 -0600
+From: Softtek Notifications <basis@softtek.com>
+To: =?utf-8?B?Sm9zZSBMdWlzIE9ydGVnYSBKaW3DqW5leg==?=
+	<josel.ortega@softtek.com>
+Subject: La cuenta para ( ADFN ) ha sido creada
+Thread-Topic: La cuenta para ( ADFN ) ha sido creada
+Thread-Index: AQHYJ28moUTBtgGYnEOOKOumRSiUHw==
+Importance: high
+X-Priority: 1
+Date: Mon, 21 Feb 2022 22:01:45 +0000
+Message-ID: <ADR47000000093962400000D3A143C4C1EDCA4EC4A48E9F8610F@softtek.com>
+Content-Language: es-ES
+X-MS-Exchange-Organization-AuthSource:
+ MW2NAM04FT063.eop-NAM04.prod.protection.outlook.com
+X-MS-Has-Attach:
+X-MS-Exchange-Organization-Network-Message-Id:
+ c480d00a-f1ec-4a43-81e4-08d9f5864438
+X-MS-TNEF-Correlator:
+X-MS-Exchange-Organization-RecordReviewCfmType: 0
+x-ms-exchange-organization-originalclientipaddress: 200.33.249.205
+x-ms-exchange-organization-originalserveripaddress: 10.13.31.109
+x-ms-publictraffictype: Email
+received-spf: Pass (protection.outlook.com: domain of softtek.com designates
+ 200.33.249.205 as permitted sender) receiver=protection.outlook.com;
+ client-ip=200.33.249.205; helo=hybrid.softtek.com;
+authentication-results: spf=pass (sender IP is 200.33.249.205)
+ smtp.mailfrom=softtek.com; dkim=none (message not signed)
+ header.d=none;dmarc=bestguesspass action=none header.from=softtek.com;
+x-ms-office365-filtering-correlation-id: c480d00a-f1ec-4a43-81e4-08d9f5864438
+x-microsoft-antispam: BCL:1;
+x-ms-traffictypediagnostic: MN2PR02MB6095:EE_
+x-forefront-antispam-report:
+ CIP:200.33.249.205;CTRY:MX;LANG:es;SCL:1;SRV:;IPV:NLI;SFV:NSPM;H:hybrid.softtek.com;PTR:mail.softtek.com;CAT:NONE;SFS:(13230001)(4636009)(286005)(8936002)(33656002)(82310400004)(966005)(8676002)(34756004)(6666004)(356005)(7636003)(7696005)(4744005)(1096003)(6636002)(336012)(6916009)(66574015)(55016003)(86362001)(426003)(2616005)(6286002)(36756003)(186003)(26005)(83380400001)(37006003)(505654002);DIR:INB;
+x-originatororg: softtek.com
+x-ms-exchange-crosstenant-network-message-id:
+ c480d00a-f1ec-4a43-81e4-08d9f5864438
+x-ms-exchange-crosstenant-originalarrivaltime: 21 Feb 2022 22:05:26.7050 (UTC)
+x-ms-exchange-crosstenant-fromentityheader: HybridOnPrem
+x-ms-exchange-crosstenant-id: 864ee999-c538-44a0-bddd-0449de62df6d
+x-ms-exchange-transport-crosstenantheadersstamped: MN2PR02MB6095
+x-ms-exchange-transport-endtoendlatency: 00:00:07.7071509
+x-ms-exchange-processed-by-bccfoldering: 15.20.4995.027
+x-eopattributedmessage: 0
+x-ms-exchange-crosstenant-originalattributedtenantconnectingip:
+ TenantId=864ee999-c538-44a0-bddd-0449de62df6d;Ip=[200.33.249.205];Helo=[hybrid.softtek.com]
+x-ms-exchange-crosstenant-authsource:
+ MW2NAM04FT063.eop-NAM04.prod.protection.outlook.com
+x-ms-exchange-crosstenant-authas: Anonymous
+x-organizationheaderspreserved: MTYPITAP231031.softtek.com
+x-crosspremisesheadersfilteredbysendconnector: MTYPITAP231031.softtek.com
+x-mailer: SAP NetWeaver 750
+X-Microsoft-Antispam-Mailbox-Delivery:
+ ucf:1;jmr:0;auth:0;dest:C;OFR:CustomRules;ENG:(910001)(944506458)(944626604)(920097)(930097);
+X-Microsoft-Antispam-Message-Info:
+ =?utf-8?B?ZXkxWkNnSmlRNmp2aVZsb2hiWnBPRmZmcjIrOFhZamUyaStvbnh2UUZiaEFr?=
+ =?utf-8?B?bExHdlNmL0h1eEFETnJXdUxKbHg1ekh1bzV1OHA2UGI1Tmt1V2N5RkU4Mlph?=
+ =?utf-8?B?eVBtdnZXV29helZjL3VkeGptenR2bE9hRW1GTGR0QndUak4xSHVtcWJWcHpX?=
+ =?utf-8?B?OVZEelVMOUJHRzVRUFhWaHpISm1sc29hZC8yMi8yVVA3K2xHTEppcFBUbXhD?=
+ =?utf-8?B?VUZEVnBtZE1XcUJINmxaWXIvN2t5ZDBxMG1UQWFBcDZqMGN2OW1xb3Q0Rklp?=
+ =?utf-8?B?SmxiNnZmSEQ2VXhINThZeWxBbGt2ai9mYzdwb01veU1FNEs5eThnSCtPWnpq?=
+ =?utf-8?B?Y08zTGJJdFpEM25kY1lJb0F4S291VzRxUUtSaFEzQ2o3MU5kb1lHTWM4aVMr?=
+ =?utf-8?B?L25OcEo1aFVjbDNpM21zbHhnSUNvQmZXSi9acDhHNm5nZDlwTDdKcFk1YVI3?=
+ =?utf-8?B?dFZ5bWErd3Q3Vmp1eGxlcnpWUnZmVWVCRGxPSEFsOHhRbXZsWW9qT3g0Z3Nl?=
+ =?utf-8?B?Y0l0MDdXUGViWlZyT2hNSHo4MmYxTVE3K3g0V2VUMm9KVzJrcUtuNmlMVjJL?=
+ =?utf-8?B?NzRuNk9FTG1ZR2RxYnlIQ2FiaUQ2aU42QW04My9xeUJ4TStWbXhoUGZVOU5T?=
+ =?utf-8?B?NXFBYVBCVnJWQzk1NUYwczdlcjAwYlMySkJpc3h1THBpOGI1TG5Cb1J2WTlM?=
+ =?utf-8?B?bS9EY3NGZkxyK0JtelFqUWFndWZEWlZhWHIwbTZtWGc5YzhuenFWVkFHam42?=
+ =?utf-8?B?QTVzSHZTN1JDdUVHUkZUVEMwbTNmMS9VT3VhMUFuYlo1dlhHajd0dklDN2pS?=
+ =?utf-8?B?am5nRU5WV3lUVEh6K2FYd29KdC9JbmVJbG9FUkhzT3czblZhL3VYVjZpa0E3?=
+ =?utf-8?B?eHJXWnZLdWljSm1objQranNyNzlyTVMwT0Zvd29UWFJBOWU5M1lmbzN0V3pD?=
+ =?utf-8?B?a0xHL2lzMXAwSEI5YUxReWZEbStPN1M5b3Z0cUg1Z2tQNnU4MkNDZ0lHRmdl?=
+ =?utf-8?B?dUY2ZEFHWkRyS0IybGozUmJYd0wwMGtiRVlLZWRxcUw2RzVNNC9GU3l6MlJs?=
+ =?utf-8?B?TnM1LzdFeE5hRHZvOVpCQklPazRvVlUzZzlHeG9jN1NHUHJVNXMydEh1WjV4?=
+ =?utf-8?B?ZUN0YXJPVnBJQVlsclZuMmxiNnh5blZhY3JmS2tBRlREdzRMa25sVXp5N2Z4?=
+ =?utf-8?B?NnNCM2I0cUY2R3g2eVdsY1B5S0Y5ay9Wa0xmZnNTRDNTWHc3cFlLZytOd0tz?=
+ =?utf-8?B?dUtZanlYZHpOVm5JSEdjblFONTZtRVFBeExENlpRclVzcGdwRnhNRlNxbDlS?=
+ =?utf-8?B?ZFRiL3ZrWDdmd1lMcXJyZkJPby9XS0N6YkYyYUU5RVA4enJpNTVqQnBKZW16?=
+ =?utf-8?B?aWZ4MUl4dkNYNFVUUWxzSFpGdHVaVnlCdDdmdEdVTzJDZytXUjZ3WUgvL01Y?=
+ =?utf-8?B?WGcvWllGVmwvK3pNYXp1MzAvemJuT1V6SWlLZ1I1YncyQWRRMThoa0ZVbEdW?=
+ =?utf-8?B?ZE94SkhoVmcwNzRxNmQzaWNQTHRFRzZ3b2JEdGhsTXoxRUxla21rZGNmcDB3?=
+ =?utf-8?B?TFRlTldFVXJDUG14a2NLeHZyQm1FdFI0ZFpjbHdPQ2ZPT1Z3RHpEVW9wL3NK?=
+ =?utf-8?B?TEtZSHViRWNFMHZNWmdTWkV1ZXJkWFZKTjhEMG5DU1hkQ2luWCtnd2JLRDBy?=
+ =?utf-8?B?MERyMjJOblZwRTdRcE5zVmM4RUtYdk5hamQ1dGdQaHRRUi9lbXp1N3hxUUdm?=
+ =?utf-8?B?OXVOS3duTnk5VWE0d3Q4R0luMitXc2M4MG9Jc1huUHdTeEZEUEdnLzl6a2l6?=
+ =?utf-8?B?cVBaSnZLU2Q1RTlTK0c5MGtBWUZLYVptRjQ4L3FOWndEM0k5WlcwYjk3UjZk?=
+ =?utf-8?B?YzY3THRyeDRhem1TWTBaU2lYMjhTVnBEVUJPTFFNRUNpUnRWdm1UOVhGcHk0?=
+ =?utf-8?B?clJhbzRpTmhjN0RPQ3QzMU5GNXlXZzg5R1R5Q1lSclpjZUxGeisxNFl5TDBU?=
+ =?utf-8?B?Q3FvMER4Nld1ejBnU1pVY3A1Wm91OTI0TFhuVmkvZW9rM0IxZ05OMHVQSWtP?=
+ =?utf-8?B?ZFZzWXBOekNQOU9DWUloN3hvNGRQOFJ0d3VINEFlMVlhVWQrQzFhZDZPYXN5?=
+ =?utf-8?B?ZXBEMXNYeVY3M2pBNEJLVlRvTlk2VE82MDNRNkp6RHV4ZzZEUXFsRDRwaHFw?=
+ =?utf-8?B?SHhxaDNlY3NhSkdaK1psbG03bW5XU2JsRVhaNS80SjY0aGFkbDV2SU9JUHNh?=
+ =?utf-8?B?RHl3czdwWnJDcUV2bTBod3FlbEZ6R0YrUkZOaWlyUzdZb2ZXOWs5RThnUk9B?=
+ =?utf-8?B?dGpUOTIrSk1XUitoRjJGVmUvMUkyWi9VckoxYjlod1JncEVYektLTk1nbXFz?=
+ =?utf-8?B?NXZhR3hNVktzMXlkZFljczZ6UDhVNDZVZUxZOC9rVlRyY0diU2xsTzIxREZt?=
+ =?utf-8?B?cTdZd2E1S0RaMTEwVC8xZVVoZVF6TldhWVYyWTF5dFQ1cWhSSkwxYkRiSFpJ?=
+ =?utf-8?B?cjEwbGtFRDRKNzQydjNxRklkU1VjK0kwSXVOR1pvQ1UvU1FpNmJ6UlIyeXZL?=
+ =?utf-8?B?RmNXTlk2NHR3QjREWUhQaXhHSjVMTFBqT2NmWE1OSjVjUnRycFJRY3ZZRmQ0?=
+ =?utf-8?B?Y0ZPUE45VGVDNmM1NGpwcHR1WWU0ekFlR1NFc2lITi9YN09hdlVWaFdKMFFk?=
+ =?utf-8?B?TjV6U3dpVEMyc0M5ZVBQY1RZMmlyd1dyNG9MOEx3ZFJMSnRZakVEMHhPWGRK?=
+ =?utf-8?B?Q3BNL25MQ1NzT0hJcGN2TThObVh6WW5TRWxtMXZDZnU0NzhkQkFNSEswdCt3?=
+ =?utf-8?B?PT0=?=
+Content-Type: text/plain; charset="utf-8"
+Content-ID: <D018E756D1BC3A4B982F3F3428515D74@namprd02.prod.outlook.com>
+Content-Transfer-Encoding: base64
+MIME-Version: 1.0
+
+TnVtZXJvIFBlcnNvbmE6IDcwMDA5Nzg5DQpJUzogQURGTg0KTm9tYnJlOiBBbnRvbmlvIGRlIEpl
+c3VzDQpBcGVsbGlkbzogRmxvcmVzIE51w7Fleg0KVW5pZGFkIE9yZ2FuaXphY2lvbmFsOiBBTVMg
+U1VQUE9SVA0KRm9ybWEgZGUgQ29tcGVuc2FjaW9uOiBOb21pbmEgU1NUIDIwMQ0KUGFpczogTUVY
+SUNPDQpFc3RhZG86IE1leGljbw0KRW1haWw6IGFudG9uaW9qLmZsb3Jlc0Bzb2Z0dGVrLmNvbQ0K
+DQovKioqIERhdG9zIHBhcmEgYWNjZXNvIGEgQ29ycmVvIEVsZWN0csOzbmljbyB5IFJlZCBkZSBT
+b2Z0dGVrICoqKi8NClVzZXI6IGFudG9uaW9qLmZsb3Jlcw0KUGFzc3dvcmQ6IDdCam52Ui9RDQpX
+ZWJtYWlsOiBodHRwczovL21haWwuc29mdHRlay5jb20vb3dhDQoNClNpIGRlc2VhcyBjYW1iaWFy
+IHR1IGNvbnRyYXNlw7FhIGRlIFJlZCBTb2Z0dGVrIGluZ3Jlc2EgYQ0KaHR0cHM6Ly9yZWNvdmVy
+eS5zb2Z0dGVrLmNvbQ0KDQpDb24gdHUgY3VlbnRhIGRlIFJlZCBTb2Z0dGVrIHBvZHLDoXMgZW50
+cmFyIGEgZGlmZXJlbnRlcyBhcGxpY2FjaW9uZXMgaW50ZXJuYXMsIHNvbG8gcmVjdWVyZGEgcXVl
+DQpwYXJhIGh0dHBzOi8vcG9ydGFsLnNvZnR0ZWsuY29tIGRlYmVzIHV0aWxpemFyIHR1IElTIGNv
+bW8gVXNlcm5hbWUgeSBsYSBjb250cmFzZcOxYSBkZSB0dSBjdWVudGEgZGUNClJlZCBTb2Z0dGVr
+IChlbCBxdWUgc2UgZXNwZWNpZmljYSBhcnJpYmEpDQoNClBvciBjdWVzdGlvbmVzIGRlIHNlZ3Vy
+aWRhZCwgZXMgcmVzcG9uc2FiaWxpZGFkIGRlIGNhZGEgcGVyc29uYSBlbCBtYW5lam8gYWRlY3Vh
+ZG8gZGUgc3VzDQpjdWVudGFzIHkgZGUgc3VzIGNvbnRyYXNlw7Fhcw0KDQpFc3RlIGNvcnJlbyBl
+cyBpbmZvcm1hdGl2byBmYXZvciBkZSBubyBjb250ZXN0YXINCg0K

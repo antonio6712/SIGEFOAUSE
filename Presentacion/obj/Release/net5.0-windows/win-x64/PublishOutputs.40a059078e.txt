@@ -1,0 +1,4 @@
+C:\Users\anton\Documents\Antonio\PROYECTOS\SIGEFOAUSE\Presentacion\bin\Release\net5.0-windows\publish\win-x64\Presentacion.pdb
+C:\Users\anton\Documents\Antonio\PROYECTOS\SIGEFOAUSE\Presentacion\bin\Release\net5.0-windows\publish\win-x64\DataAccess.pdb
+C:\Users\anton\Documents\Antonio\PROYECTOS\SIGEFOAUSE\Presentacion\bin\Release\net5.0-windows\publish\win-x64\Domain.pdb
+C:\Users\anton\Documents\Antonio\PROYECTOS\SIGEFOAUSE\Presentacion\bin\Release\net5.0-windows\publish\win-x64\Presentacion.exe

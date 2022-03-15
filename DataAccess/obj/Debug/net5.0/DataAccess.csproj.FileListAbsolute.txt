@@ -1,0 +1,12 @@
+C:\Users\anton\Documents\Antonio\PROYECTOS\SIGEFOAUSE\DataAccess\bin\Debug\net5.0\DataAccess.deps.json
+C:\Users\anton\Documents\Antonio\PROYECTOS\SIGEFOAUSE\DataAccess\bin\Debug\net5.0\DataAccess.dll
+C:\Users\anton\Documents\Antonio\PROYECTOS\SIGEFOAUSE\DataAccess\bin\Debug\net5.0\DataAccess.pdb
+C:\Users\anton\Documents\Antonio\PROYECTOS\SIGEFOAUSE\DataAccess\obj\Debug\net5.0\DataAccess.csproj.AssemblyReference.cache
+C:\Users\anton\Documents\Antonio\PROYECTOS\SIGEFOAUSE\DataAccess\obj\Debug\net5.0\DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\anton\Documents\Antonio\PROYECTOS\SIGEFOAUSE\DataAccess\obj\Debug\net5.0\DataAccess.AssemblyInfoInputs.cache
+C:\Users\anton\Documents\Antonio\PROYECTOS\SIGEFOAUSE\DataAccess\obj\Debug\net5.0\DataAccess.AssemblyInfo.cs
+C:\Users\anton\Documents\Antonio\PROYECTOS\SIGEFOAUSE\DataAccess\obj\Debug\net5.0\DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\anton\Documents\Antonio\PROYECTOS\SIGEFOAUSE\DataAccess\obj\Debug\net5.0\DataAccess.dll
+C:\Users\anton\Documents\Antonio\PROYECTOS\SIGEFOAUSE\DataAccess\obj\Debug\net5.0\refint\DataAccess.dll
+C:\Users\anton\Documents\Antonio\PROYECTOS\SIGEFOAUSE\DataAccess\obj\Debug\net5.0\DataAccess.pdb
+C:\Users\anton\Documents\Antonio\PROYECTOS\SIGEFOAUSE\DataAccess\obj\Debug\net5.0\ref\DataAccess.dll
