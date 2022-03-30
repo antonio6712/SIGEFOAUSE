@@ -29,9 +29,9 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle9 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             this.panel1 = new System.Windows.Forms.Panel();
             this.label2 = new System.Windows.Forms.Label();
             this.fechahasta = new System.Windows.Forms.DateTimePicker();
@@ -51,6 +51,7 @@
             this.documentosTablaBindingSource2 = new System.Windows.Forms.BindingSource(this.components);
             this.documentosTablaBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
             this.documentosTablaBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.iconButton2 = new FontAwesome.Sharp.IconButton();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.ListaTabla)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.documentosTablaBindingSource3)).BeginInit();
@@ -62,6 +63,7 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.SystemColors.WindowFrame;
+            this.panel1.Controls.Add(this.iconButton2);
             this.panel1.Controls.Add(this.label2);
             this.panel1.Controls.Add(this.fechahasta);
             this.panel1.Controls.Add(this.BuscaFecha);
@@ -81,7 +83,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label2.Location = new System.Drawing.Point(360, 78);
+            this.label2.Location = new System.Drawing.Point(351, 75);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(60, 21);
             this.label2.TabIndex = 10;
@@ -90,7 +92,7 @@
             // fechahasta
             // 
             this.fechahasta.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.fechahasta.Location = new System.Drawing.Point(426, 77);
+            this.fechahasta.Location = new System.Drawing.Point(417, 73);
             this.fechahasta.Name = "fechahasta";
             this.fechahasta.Size = new System.Drawing.Size(261, 23);
             this.fechahasta.TabIndex = 9;
@@ -98,7 +100,7 @@
             // BuscaFecha
             // 
             this.BuscaFecha.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.BuscaFecha.Location = new System.Drawing.Point(82, 76);
+            this.BuscaFecha.Location = new System.Drawing.Point(73, 74);
             this.BuscaFecha.Name = "BuscaFecha";
             this.BuscaFecha.Size = new System.Drawing.Size(272, 23);
             this.BuscaFecha.TabIndex = 8;
@@ -107,7 +109,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label1.Location = new System.Drawing.Point(12, 83);
+            this.label1.Location = new System.Drawing.Point(3, 79);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(64, 21);
             this.label1.TabIndex = 7;
@@ -118,7 +120,7 @@
             this.iconButton4.IconChar = FontAwesome.Sharp.IconChar.None;
             this.iconButton4.IconColor = System.Drawing.Color.Black;
             this.iconButton4.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconButton4.Location = new System.Drawing.Point(693, 76);
+            this.iconButton4.Location = new System.Drawing.Point(684, 73);
             this.iconButton4.Name = "iconButton4";
             this.iconButton4.Size = new System.Drawing.Size(75, 23);
             this.iconButton4.TabIndex = 6;
@@ -134,14 +136,14 @@
             this.ListaTabla.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(65)))), ((int)(((byte)(91)))));
             this.ListaTabla.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.ListaTabla.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
-            dataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle7.BackColor = System.Drawing.SystemColors.HotTrack;
-            dataGridViewCellStyle7.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            dataGridViewCellStyle7.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle7.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle7.SelectionForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle7.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.ListaTabla.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle7;
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.HotTrack;
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            dataGridViewCellStyle1.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.ListaTabla.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
             this.ListaTabla.ColumnHeadersHeight = 42;
             this.ListaTabla.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
             this.ListaTabla.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
@@ -157,21 +159,21 @@
             this.ListaTabla.MultiSelect = false;
             this.ListaTabla.Name = "ListaTabla";
             this.ListaTabla.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
-            dataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle8.BackColor = System.Drawing.SystemColors.GrayText;
-            dataGridViewCellStyle8.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            dataGridViewCellStyle8.ForeColor = System.Drawing.SystemColors.Info;
-            dataGridViewCellStyle8.SelectionBackColor = System.Drawing.SystemColors.GradientActiveCaption;
-            dataGridViewCellStyle8.SelectionForeColor = System.Drawing.SystemColors.Info;
-            dataGridViewCellStyle8.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.ListaTabla.RowHeadersDefaultCellStyle = dataGridViewCellStyle8;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.GrayText;
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.Info;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.Info;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.ListaTabla.RowHeadersDefaultCellStyle = dataGridViewCellStyle2;
             this.ListaTabla.RowHeadersWidth = 30;
-            dataGridViewCellStyle9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(65)))), ((int)(((byte)(91)))));
-            dataGridViewCellStyle9.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            dataGridViewCellStyle9.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle9.SelectionBackColor = System.Drawing.Color.SteelBlue;
-            dataGridViewCellStyle9.SelectionForeColor = System.Drawing.Color.White;
-            this.ListaTabla.RowsDefaultCellStyle = dataGridViewCellStyle9;
+            dataGridViewCellStyle3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(65)))), ((int)(((byte)(91)))));
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.SteelBlue;
+            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.White;
+            this.ListaTabla.RowsDefaultCellStyle = dataGridViewCellStyle3;
             this.ListaTabla.RowTemplate.Height = 25;
             this.ListaTabla.Size = new System.Drawing.Size(656, 378);
             this.ListaTabla.TabIndex = 2;
@@ -221,7 +223,7 @@
             this.iconButton3.IconChar = FontAwesome.Sharp.IconChar.None;
             this.iconButton3.IconColor = System.Drawing.Color.Black;
             this.iconButton3.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconButton3.Location = new System.Drawing.Point(693, 221);
+            this.iconButton3.Location = new System.Drawing.Point(684, 243);
             this.iconButton3.Name = "iconButton3";
             this.iconButton3.Size = new System.Drawing.Size(75, 23);
             this.iconButton3.TabIndex = 4;
@@ -234,7 +236,7 @@
             this.EditarRegistro.IconChar = FontAwesome.Sharp.IconChar.None;
             this.EditarRegistro.IconColor = System.Drawing.Color.Black;
             this.EditarRegistro.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.EditarRegistro.Location = new System.Drawing.Point(693, 161);
+            this.EditarRegistro.Location = new System.Drawing.Point(684, 175);
             this.EditarRegistro.Name = "EditarRegistro";
             this.EditarRegistro.Size = new System.Drawing.Size(75, 23);
             this.EditarRegistro.TabIndex = 3;
@@ -273,6 +275,19 @@
             // documentosTablaBindingSource
             // 
             this.documentosTablaBindingSource.DataSource = typeof(Domain.DocumentosTabla);
+            // 
+            // iconButton2
+            // 
+            this.iconButton2.IconChar = FontAwesome.Sharp.IconChar.None;
+            this.iconButton2.IconColor = System.Drawing.Color.Black;
+            this.iconButton2.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.iconButton2.Location = new System.Drawing.Point(684, 304);
+            this.iconButton2.Name = "iconButton2";
+            this.iconButton2.Size = new System.Drawing.Size(75, 23);
+            this.iconButton2.TabIndex = 11;
+            this.iconButton2.Text = "iconButton2";
+            this.iconButton2.UseVisualStyleBackColor = true;
+            this.iconButton2.Click += new System.EventHandler(this.iconButton2_Click);
             // 
             // ListaRegistros
             // 
@@ -315,5 +330,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn rfc1DataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn facturaNumero1DataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn fecha1DataGridViewTextBoxColumn;
+        private FontAwesome.Sharp.IconButton iconButton2;
     }
 }
