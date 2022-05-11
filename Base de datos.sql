@@ -75,7 +75,14 @@ CREATE TABLE `documento` (
   PRIMARY KEY (`iddocumento`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
-INSERT INTO `sigefoause`.`users` (`LoginName`, `Password`, `Firstname`, `Lastname`,`Email`) 
-VALUES ('admin', 'admin', 'Antonio de Jesus', 'Flores ', 'antonio.flores67@hotmail.com');
+
+CREATE TABLE `sigefoause`.`marcas` (
+  `idMarcas` INT NOT NULL AUTO_INCREMENT,
+  `Nombre` VARCHAR(50) NOT NULL,
+  PRIMARY KEY (`idMarcas`));
+
+
+INSERT INTO `sigefoause`.`users` (`LoginName`, `Password`, `Firstname`, `Lastname`, `Email`, `Rol`) VALUES ('administrador', 'administrador', 'Nicolas', 'Ortega Moreno', 'admin@gmail.com', 'ADMINISTRADOR');
+
 ; 
 

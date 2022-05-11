@@ -55,3 +55,4 @@ C:\Users\anton\Documents\Antonio\PROYECTOS\SIGEFOAUSE\Presentacion\bin\Debug\net
 C:\Users\anton\Documents\Antonio\PROYECTOS\SIGEFOAUSE\Presentacion\bin\Debug\net5.0-windows\Microsoft.Extensions.Options.dll
 C:\Users\anton\Documents\Antonio\PROYECTOS\SIGEFOAUSE\Presentacion\bin\Debug\net5.0-windows\Microsoft.Extensions.Primitives.dll
 C:\Users\anton\Documents\Antonio\PROYECTOS\SIGEFOAUSE\Presentacion\bin\Debug\net5.0-windows\Newtonsoft.Json.dll
+C:\Users\anton\Documents\Antonio\PROYECTOS\SIGEFOAUSE\Presentacion\obj\Debug\net5.0-windows\Presentacion.Graficas.resources

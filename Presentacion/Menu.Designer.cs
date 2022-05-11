@@ -221,9 +221,9 @@
             // 
             // FormPrincipal
             // 
-            this.FormPrincipal.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.FormPrincipal.BackColor = System.Drawing.SystemColors.WindowFrame;
             this.FormPrincipal.Controls.Add(this.label3);
+            this.FormPrincipal.Dock = System.Windows.Forms.DockStyle.Fill;
             this.FormPrincipal.Location = new System.Drawing.Point(200, 68);
             this.FormPrincipal.Name = "FormPrincipal";
             this.FormPrincipal.Size = new System.Drawing.Size(771, 500);

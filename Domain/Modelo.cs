@@ -146,7 +146,7 @@ namespace Domain
                 "`Ceniceros`, `CinturonesSeguridad`, `ManeralGato`, `LlaveRuedas`, " +
                 "`TrianguloSeguridad`, `LlantaRefaccion`, `Extinguidor`, `CarroceriaGolpes`, " +
                 "`Claxon`, `ConprobantesTendencia`, `ComprobantesVerificacionVehi`, " +
-                "`EstucheHerramienta`, `Tenencia`, IdUsuario, MunicipioEstado)  " +
+                "`EstucheHerramienta`, `Tenencia`, IdUsuario, MunicipioEstado, A2022, NoAplica, Limpiadores)  " +
 
                 "VALUES (@NombreVendedor, @NumeroIdentificacion, @Curp, @Rfc, @Domicilio, @CP, @TelefonoVendedor," +
                 "@Marca, @Modelo, @ColorExterior, @ColorInterior, @Motor, @Tipo, @Serie, " +
@@ -157,7 +157,7 @@ namespace Domain
                 "@CalefaccionAireAcondicionado, @Radio, @Bocinas, @EspejoRetrovisor, @Ceniceros, @CinturonesSeguridad," +
                 "@ManeralGato, @LlaveRuedas, @TrianguloSeguridad, @LlantaRefaccion, @Extinguidor, @CarroceriaGolpes," +
                 "@Claxon, @ConprobantesTendencia, @ComprobantesVerificacionVehi, @EstucheHerramienta, @Tenencia, @IdUsuario," +
-                "@MunicipioEstado);";
+                "@MunicipioEstado, @A2022, @NoAplica, @Limpiadores);";
 
             MySqlCommand comando = new MySqlCommand(query, conexion);
             comando.Parameters.AddWithValue("@NombreVendedor", documentos.NombreVendedor1);
@@ -222,6 +222,10 @@ namespace Domain
             comando.Parameters.AddWithValue("@Tenencia", documentos.Tenencia1);
             comando.Parameters.AddWithValue("@IdUsuario", llegadaDatos.Iduser);
             comando.Parameters.AddWithValue("@MunicipioEstado", documentos.EstadoMunicipio1);
+            comando.Parameters.AddWithValue("@A2022", documentos.A20221);
+            comando.Parameters.AddWithValue("@NoAplica", documentos.NoAplica1);
+            comando.Parameters.AddWithValue("@Limpiadores", documentos.Limpiadores1);
+
 
 
             int resultado = comando.ExecuteNonQuery();

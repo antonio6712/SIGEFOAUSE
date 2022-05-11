@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "ZaziBZ8ToEd2oDdUtl7iwx8Nl5ABEfFaO1PJKin4Sx6jRxd6vmhvHziRLfmheg8mtHVZzGM/tJkcfmCMYcc7xg==",
+  "dgSpecHash": "Xeyv+Cw0S7m01llxoPRo0CwGDfl0fNUgL5mWqqn7zunSWBp1Ql7FVlOP3SM88tB/85qIpa2ECJuajEbON0/f2w==",
   "success": true,
   "projectFilePath": "C:\\Users\\anton\\Documents\\Antonio\\PROYECTOS\\SIGEFOAUSE\\Presentacion\\Presentacion.csproj",
   "expectedPackageFiles": [
@@ -44,6 +44,11 @@
     "C:\\Users\\anton\\.nuget\\packages\\runtime.ubuntu.14.04-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.ubuntu.14.04-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
     "C:\\Users\\anton\\.nuget\\packages\\runtime.ubuntu.16.04-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.ubuntu.16.04-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
     "C:\\Users\\anton\\.nuget\\packages\\runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
+    "C:\\Users\\anton\\.nuget\\packages\\syncfusion.chart.base\\20.1.0.47\\syncfusion.chart.base.20.1.0.47.nupkg.sha512",
+    "C:\\Users\\anton\\.nuget\\packages\\syncfusion.chart.windows\\20.1.0.47\\syncfusion.chart.windows.20.1.0.47.nupkg.sha512",
+    "C:\\Users\\anton\\.nuget\\packages\\syncfusion.grouping.base\\20.1.0.47\\syncfusion.grouping.base.20.1.0.47.nupkg.sha512",
+    "C:\\Users\\anton\\.nuget\\packages\\syncfusion.licensing\\20.1.0.47\\syncfusion.licensing.20.1.0.47.nupkg.sha512",
+    "C:\\Users\\anton\\.nuget\\packages\\syncfusion.shared.base\\20.1.0.47\\syncfusion.shared.base.20.1.0.47.nupkg.sha512",
     "C:\\Users\\anton\\.nuget\\packages\\system.appcontext\\4.1.0\\system.appcontext.4.1.0.nupkg.sha512",
     "C:\\Users\\anton\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
     "C:\\Users\\anton\\.nuget\\packages\\system.collections\\4.3.0\\system.collections.4.3.0.nupkg.sha512",

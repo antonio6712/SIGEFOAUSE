@@ -508,6 +508,63 @@
           }
         }
       },
+      "Syncfusion.Chart.Base/20.1.0.47": {
+        "dependencies": {
+          "Syncfusion.Licensing": "20.1.0.47",
+          "Syncfusion.Shared.Base": "20.1.0.47"
+        },
+        "runtime": {
+          "lib/net5.0-windows7.0/Syncfusion.Chart.Base.dll": {
+            "assemblyVersion": "20.1500.0.47",
+            "fileVersion": "20.1500.0.47"
+          }
+        }
+      },
+      "Syncfusion.Chart.Windows/20.1.0.47": {
+        "dependencies": {
+          "Syncfusion.Chart.Base": "20.1.0.47",
+          "Syncfusion.Grouping.Base": "20.1.0.47",
+          "Syncfusion.Licensing": "20.1.0.47",
+          "Syncfusion.Shared.Base": "20.1.0.47"
+        },
+        "runtime": {
+          "lib/net5.0-windows7.0/Syncfusion.Chart.Windows.dll": {
+            "assemblyVersion": "20.1500.0.47",
+            "fileVersion": "20.1500.0.47"
+          }
+        }
+      },
+      "Syncfusion.Grouping.Base/20.1.0.47": {
+        "dependencies": {
+          "Syncfusion.Licensing": "20.1.0.47",
+          "Syncfusion.Shared.Base": "20.1.0.47"
+        },
+        "runtime": {
+          "lib/net5.0-windows7.0/Syncfusion.Grouping.Base.dll": {
+            "assemblyVersion": "20.1500.0.47",
+            "fileVersion": "20.1500.0.47"
+          }
+        }
+      },
+      "Syncfusion.Licensing/20.1.0.47": {
+        "runtime": {
+          "lib/net5.0/Syncfusion.Licensing.dll": {
+            "assemblyVersion": "20.1.0.47",
+            "fileVersion": "20.1.0.47"
+          }
+        }
+      },
+      "Syncfusion.Shared.Base/20.1.0.47": {
+        "dependencies": {
+          "Syncfusion.Licensing": "20.1.0.47"
+        },
+        "runtime": {
+          "lib/net5.0-windows7.0/Syncfusion.Shared.Base.dll": {
+            "assemblyVersion": "20.1500.0.47",
+            "fileVersion": "20.1500.0.47"
+          }
+        }
+      },
       "System.AppContext/4.1.0": {
         "dependencies": {
           "System.Runtime": "4.3.0"
@@ -1670,6 +1727,41 @@
       "sha512": "sha512-VB5cn/7OzUfzdnC8tqAIMQciVLiq2epm2NrAm1E9OjNRyG4lVhfR61SMcLizejzQP8R8Uf/0l5qOIbUEi+RdEg==",
       "path": "runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl/4.3.0",
       "hashPath": "runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512"
+    },
+    "Syncfusion.Chart.Base/20.1.0.47": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-jKEqdO80TY8VNZpDncDF+g/bES4bdB8xmNzbbmljqulFF0TkJgPNYsWMyYOwPLd357CK8sD8lK6OqB1+5+RhNQ==",
+      "path": "syncfusion.chart.base/20.1.0.47",
+      "hashPath": "syncfusion.chart.base.20.1.0.47.nupkg.sha512"
+    },
+    "Syncfusion.Chart.Windows/20.1.0.47": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-fxNKfn1L8b6TvB8e1hh0nzdybRaDZbON8GIjAh+dj2txg8tkYoCIv7rOZ5Axml2zwUZLS2bQqOXdxSrk9bUyRQ==",
+      "path": "syncfusion.chart.windows/20.1.0.47",
+      "hashPath": "syncfusion.chart.windows.20.1.0.47.nupkg.sha512"
+    },
+    "Syncfusion.Grouping.Base/20.1.0.47": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ShFKTlY8qB4JWBR9aO0g8rvuzM4yX2PQCous3A4UmllqHhKfJcL86Chk1y4iGA9bRy441gNWGfsWKqlY9FjTmw==",
+      "path": "syncfusion.grouping.base/20.1.0.47",
+      "hashPath": "syncfusion.grouping.base.20.1.0.47.nupkg.sha512"
+    },
+    "Syncfusion.Licensing/20.1.0.47": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-wvtXu+N9seO8rHt18VmOGX9B2/aAzyxKteyDVXJPUBcuLf8PuRppBE9cx3gKeBokvMK03zihC/39xcz4kWdtNA==",
+      "path": "syncfusion.licensing/20.1.0.47",
+      "hashPath": "syncfusion.licensing.20.1.0.47.nupkg.sha512"
+    },
+    "Syncfusion.Shared.Base/20.1.0.47": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-zDUf7FQwWJ2jeXk3chJAjeJW38/9fZ7PESUJ6zhZERTuXuRSamQF80w5CAvB7G1YUIh+wpSJm7WcQtpBDezoWw==",
+      "path": "syncfusion.shared.base/20.1.0.47",
+      "hashPath": "syncfusion.shared.base.20.1.0.47.nupkg.sha512"
     },
     "System.AppContext/4.1.0": {
       "type": "package",

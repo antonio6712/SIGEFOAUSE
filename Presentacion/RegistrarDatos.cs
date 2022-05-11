@@ -33,6 +33,7 @@ namespace Presentacion
                 A2019.Visible = false;
                 A2020.Visible = false;
                 A2021.Visible = false;
+                A2022.Visible = false;
             }
             else
             {
@@ -45,6 +46,8 @@ namespace Presentacion
                 A2019.Visible = true;
                 A2020.Visible = true;
                 A2021.Visible = true;
+                A2022.Visible = true;
+
             }
         }
 
@@ -102,10 +105,12 @@ namespace Presentacion
             documentos.A20191 = A2019.Checked;
             documentos.A20201 = A2020.Checked;
             documentos.A20211 = A2021.Checked;
+            documentos.A20221 = A2022.Checked;
             documentos.Placas = Placas.Checked;
             documentos.Llaves = Llaves.Checked;
             documentos.Verificacion1 = Verificacion.Checked;
             documentos.ComprobantesVerificacionVehi1 = CompVerificacion.Checked;
+            documentos.NoAplica1 = NoAplica.Checked;
 
             documentos.CantidadCompra1 = CantidadCompra.Text;
             documentos.CantidadCompraEscrita1 = CantidadEscrita.Text;
@@ -137,6 +142,8 @@ namespace Presentacion
             documentos.LlantaRefaccion1 = LlantaRefaccion.Checked;
             documentos.Extinguidor1 = Extinguidor.Checked;
             documentos.Tenencia1 = Tenencias.Checked;
+
+            documentos.Limpiadores1 = Limpiadores.Checked;
 
             try
             {

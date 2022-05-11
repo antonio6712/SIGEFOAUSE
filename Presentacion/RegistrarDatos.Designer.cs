@@ -73,6 +73,10 @@
             this.panel6 = new System.Windows.Forms.Panel();
             this.iconButton1 = new FontAwesome.Sharp.IconButton();
             this.panel5 = new System.Windows.Forms.Panel();
+            this.A2022 = new System.Windows.Forms.CheckBox();
+            this.label40 = new System.Windows.Forms.Label();
+            this.NoAplica = new System.Windows.Forms.CheckBox();
+            this.label35 = new System.Windows.Forms.Label();
             this.Tenencias = new System.Windows.Forms.CheckBox();
             this.label27 = new System.Windows.Forms.Label();
             this.label26 = new System.Windows.Forms.Label();
@@ -120,6 +124,8 @@
             this.Marca = new System.Windows.Forms.TextBox();
             this.label17 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.label30 = new System.Windows.Forms.Label();
+            this.EstadoMunicipio = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
             this.Telefono = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
@@ -135,8 +141,7 @@
             this.label3 = new System.Windows.Forms.Label();
             this.Nombre = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.label30 = new System.Windows.Forms.Label();
-            this.EstadoMunicipio = new System.Windows.Forms.TextBox();
+            this.Limpiadores = new System.Windows.Forms.CheckBox();
             this.panel2.SuspendLayout();
             this.panel1.SuspendLayout();
             this.panel8.SuspendLayout();
@@ -208,6 +213,7 @@
             // panel8
             // 
             this.panel8.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.panel8.Controls.Add(this.Limpiadores);
             this.panel8.Controls.Add(this.CompTenencias);
             this.panel8.Controls.Add(this.CompVerificacion);
             this.panel8.Controls.Add(this.Extinguidor);
@@ -634,6 +640,10 @@
             // panel5
             // 
             this.panel5.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.panel5.Controls.Add(this.A2022);
+            this.panel5.Controls.Add(this.label40);
+            this.panel5.Controls.Add(this.NoAplica);
+            this.panel5.Controls.Add(this.label35);
             this.panel5.Controls.Add(this.Tenencias);
             this.panel5.Controls.Add(this.label27);
             this.panel5.Controls.Add(this.label26);
@@ -665,6 +675,48 @@
             this.panel5.Size = new System.Drawing.Size(645, 308);
             this.panel5.TabIndex = 5;
             // 
+            // A2022
+            // 
+            this.A2022.AutoSize = true;
+            this.A2022.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.A2022.Location = new System.Drawing.Point(221, 145);
+            this.A2022.Name = "A2022";
+            this.A2022.Size = new System.Drawing.Size(55, 21);
+            this.A2022.TabIndex = 35;
+            this.A2022.Text = "2022";
+            this.A2022.UseVisualStyleBackColor = true;
+            this.A2022.Visible = false;
+            // 
+            // label40
+            // 
+            this.label40.AutoSize = true;
+            this.label40.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label40.Location = new System.Drawing.Point(209, 265);
+            this.label40.Name = "label40";
+            this.label40.Size = new System.Drawing.Size(44, 17);
+            this.label40.TabIndex = 34;
+            this.label40.Text = "SI/NO";
+            // 
+            // NoAplica
+            // 
+            this.NoAplica.AutoSize = true;
+            this.NoAplica.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.NoAplica.Location = new System.Drawing.Point(283, 285);
+            this.NoAplica.Name = "NoAplica";
+            this.NoAplica.Size = new System.Drawing.Size(15, 14);
+            this.NoAplica.TabIndex = 33;
+            this.NoAplica.UseVisualStyleBackColor = true;
+            // 
+            // label35
+            // 
+            this.label35.AutoSize = true;
+            this.label35.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label35.Location = new System.Drawing.Point(254, 265);
+            this.label35.Name = "label35";
+            this.label35.Size = new System.Drawing.Size(72, 17);
+            this.label35.TabIndex = 32;
+            this.label35.Text = "No Aplica";
+            // 
             // Tenencias
             // 
             this.Tenencias.AutoSize = true;
@@ -679,22 +731,22 @@
             // label27
             // 
             this.label27.AutoSize = true;
-            this.label27.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label27.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label27.ForeColor = System.Drawing.Color.Red;
-            this.label27.Location = new System.Drawing.Point(294, 260);
+            this.label27.Location = new System.Drawing.Point(354, 253);
             this.label27.Name = "label27";
-            this.label27.Size = new System.Drawing.Size(297, 21);
+            this.label27.Size = new System.Drawing.Size(249, 17);
             this.label27.TabIndex = 30;
             this.label27.Text = "para \"NO\" dejar el cuadro en blanco.";
             // 
             // label26
             // 
             this.label26.AutoSize = true;
-            this.label26.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label26.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label26.ForeColor = System.Drawing.Color.Red;
-            this.label26.Location = new System.Drawing.Point(294, 239);
+            this.label26.Location = new System.Drawing.Point(354, 236);
             this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(348, 21);
+            this.label26.Size = new System.Drawing.Size(288, 17);
             this.label26.TabIndex = 29;
             this.label26.Text = "NOTA: Para decir que \"SI\" marca el cuadro, ";
             // 
@@ -702,7 +754,7 @@
             // 
             this.Verificacion.AutoSize = true;
             this.Verificacion.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Verificacion.Location = new System.Drawing.Point(221, 273);
+            this.Verificacion.Location = new System.Drawing.Point(221, 285);
             this.Verificacion.Name = "Verificacion";
             this.Verificacion.Size = new System.Drawing.Size(15, 14);
             this.Verificacion.TabIndex = 28;
@@ -762,7 +814,7 @@
             // 
             this.A2013.AutoSize = true;
             this.A2013.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.A2013.Location = new System.Drawing.Point(404, 176);
+            this.A2013.Location = new System.Drawing.Point(465, 174);
             this.A2013.Name = "A2013";
             this.A2013.Size = new System.Drawing.Size(55, 21);
             this.A2013.TabIndex = 22;
@@ -774,7 +826,7 @@
             // 
             this.A2014.AutoSize = true;
             this.A2014.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.A2014.Location = new System.Drawing.Point(343, 179);
+            this.A2014.Location = new System.Drawing.Point(404, 174);
             this.A2014.Name = "A2014";
             this.A2014.Size = new System.Drawing.Size(55, 21);
             this.A2014.TabIndex = 21;
@@ -786,7 +838,7 @@
             // 
             this.A2017.AutoSize = true;
             this.A2017.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.A2017.Location = new System.Drawing.Point(465, 152);
+            this.A2017.Location = new System.Drawing.Point(221, 174);
             this.A2017.Name = "A2017";
             this.A2017.Size = new System.Drawing.Size(55, 21);
             this.A2017.TabIndex = 20;
@@ -798,7 +850,7 @@
             // 
             this.A2018.AutoSize = true;
             this.A2018.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.A2018.Location = new System.Drawing.Point(404, 152);
+            this.A2018.Location = new System.Drawing.Point(465, 147);
             this.A2018.Name = "A2018";
             this.A2018.Size = new System.Drawing.Size(55, 21);
             this.A2018.TabIndex = 19;
@@ -810,7 +862,7 @@
             // 
             this.A2019.AutoSize = true;
             this.A2019.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.A2019.Location = new System.Drawing.Point(343, 152);
+            this.A2019.Location = new System.Drawing.Point(404, 147);
             this.A2019.Name = "A2019";
             this.A2019.Size = new System.Drawing.Size(55, 21);
             this.A2019.TabIndex = 18;
@@ -822,7 +874,7 @@
             // 
             this.A2015.AutoSize = true;
             this.A2015.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.A2015.Location = new System.Drawing.Point(282, 179);
+            this.A2015.Location = new System.Drawing.Point(343, 174);
             this.A2015.Name = "A2015";
             this.A2015.Size = new System.Drawing.Size(55, 21);
             this.A2015.TabIndex = 17;
@@ -834,7 +886,7 @@
             // 
             this.A2016.AutoSize = true;
             this.A2016.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.A2016.Location = new System.Drawing.Point(221, 179);
+            this.A2016.Location = new System.Drawing.Point(282, 174);
             this.A2016.Name = "A2016";
             this.A2016.Size = new System.Drawing.Size(55, 21);
             this.A2016.TabIndex = 16;
@@ -846,7 +898,7 @@
             // 
             this.A2020.AutoSize = true;
             this.A2020.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.A2020.Location = new System.Drawing.Point(282, 152);
+            this.A2020.Location = new System.Drawing.Point(343, 147);
             this.A2020.Name = "A2020";
             this.A2020.Size = new System.Drawing.Size(55, 21);
             this.A2020.TabIndex = 15;
@@ -858,7 +910,7 @@
             // 
             this.A2021.AutoSize = true;
             this.A2021.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.A2021.Location = new System.Drawing.Point(221, 152);
+            this.A2021.Location = new System.Drawing.Point(283, 147);
             this.A2021.Name = "A2021";
             this.A2021.Size = new System.Drawing.Size(55, 21);
             this.A2021.TabIndex = 14;
@@ -1170,6 +1222,24 @@
             this.panel3.Size = new System.Drawing.Size(645, 412);
             this.panel3.TabIndex = 3;
             // 
+            // label30
+            // 
+            this.label30.AutoSize = true;
+            this.label30.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label30.Location = new System.Drawing.Point(30, 289);
+            this.label30.Name = "label30";
+            this.label30.Size = new System.Drawing.Size(150, 21);
+            this.label30.TabIndex = 15;
+            this.label30.Text = "Estado/Municipio:";
+            // 
+            // EstadoMunicipio
+            // 
+            this.EstadoMunicipio.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.EstadoMunicipio.Location = new System.Drawing.Point(248, 286);
+            this.EstadoMunicipio.Name = "EstadoMunicipio";
+            this.EstadoMunicipio.Size = new System.Drawing.Size(299, 27);
+            this.EstadoMunicipio.TabIndex = 16;
+            // 
             // label9
             // 
             this.label9.AutoSize = true;
@@ -1306,23 +1376,15 @@
             this.label2.TabIndex = 0;
             this.label2.Text = "Datos del Vendedor.";
             // 
-            // label30
+            // Limpiadores
             // 
-            this.label30.AutoSize = true;
-            this.label30.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label30.Location = new System.Drawing.Point(30, 289);
-            this.label30.Name = "label30";
-            this.label30.Size = new System.Drawing.Size(150, 21);
-            this.label30.TabIndex = 15;
-            this.label30.Text = "Estado/Municipio:";
-            // 
-            // EstadoMunicipio
-            // 
-            this.EstadoMunicipio.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.EstadoMunicipio.Location = new System.Drawing.Point(248, 286);
-            this.EstadoMunicipio.Name = "EstadoMunicipio";
-            this.EstadoMunicipio.Size = new System.Drawing.Size(299, 27);
-            this.EstadoMunicipio.TabIndex = 16;
+            this.Limpiadores.AutoSize = true;
+            this.Limpiadores.Location = new System.Drawing.Point(462, 249);
+            this.Limpiadores.Name = "Limpiadores";
+            this.Limpiadores.Size = new System.Drawing.Size(91, 19);
+            this.Limpiadores.TabIndex = 27;
+            this.Limpiadores.Text = "Limpiadores";
+            this.Limpiadores.UseVisualStyleBackColor = true;
             // 
             // RegistrarDatos
             // 
@@ -1464,5 +1526,10 @@
         private System.Windows.Forms.CheckBox CompVerificacion;
         private System.Windows.Forms.Label label30;
         private System.Windows.Forms.TextBox EstadoMunicipio;
+        private System.Windows.Forms.Label label40;
+        private System.Windows.Forms.CheckBox NoAplica;
+        private System.Windows.Forms.Label label35;
+        private System.Windows.Forms.CheckBox A2022;
+        private System.Windows.Forms.CheckBox Limpiadores;
     }
 }
